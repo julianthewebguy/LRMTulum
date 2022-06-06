@@ -56,7 +56,7 @@
 													var url = location.href;
 													var headerDiv = document.getElementsByClassName('row-fluid')[2];
 													console.log(url)
-													if (url == "http://www.puretulumrealestate.com/" || url == "https://www.puretulumrealestate.com/" || url == "http://www.puretulumrealestate.com/#" || url == "https://www.puretulumrealestate.com/#" || ) {
+													if (url == "http://www.puretulumrealestate.com/" || url == "https://www.puretulumrealestate.com/" || url == "http://www.puretulumrealestate.com/#" || url == "https://www.puretulumrealestate.com/#" || (window.location.href.indexOf('https://www.puretulumrealestate.com/homes.aspx?__ts=') == 0)) {
 														headerDiv.classList.add('fullwidth');
 													}
 
